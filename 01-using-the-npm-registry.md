@@ -1,6 +1,14 @@
 # Using the npm Registry
 
+If in an environment where you require a proxy to access the public internet, you
+may need to configure your proxy:
 
+```
+npm config set http_proxy http://some-proxy-url
+npm config set https_proxy https://some-proxy-url
+```
+
+npm install -g create-react-app
 
 When doing an `npm install`, if you experience errors (eg JSON parsing error), you
 need to be connected to a registry (perhaps via a VPN).
